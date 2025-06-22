@@ -7,5 +7,11 @@
 将 [`worker.js`](worker.js)内容拷贝到worker
 再绑定一个自定义域名即可
 
+## cloudflare Connect to Github
+
+```bash
+npx wrangler deploy worker.js --compatibility-date 2025-06-22
+```
+
 ## 作者
 技术爬爬虾，分享好玩实用软件DIY的科技博主，全网同名。
