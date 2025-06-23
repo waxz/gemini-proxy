@@ -11,7 +11,10 @@
 ## cloudflare Connect to Github
 
 ```bash
-npx wrangler deploy worker.js --compatibility-date 2025-06-22
+npm i wrangler --save-dev
+
+npx wrangler dev --port 8888
+
 ```
 
 ## call api
@@ -23,3 +26,4 @@ curl https://your-server/v1beta/models/gemini-pro?key=$API_KEY
 ## 作者
 - https://github.com/CattleZoe/Gemini-proxy
 - https://github.com/tech-shrimp/gemini-proxy
+- Gemini
